@@ -1,0 +1,9 @@
+{
+    "variables": {
+        "$openmls" : { "OpenmlSimulation": [3,6,8,10,11,12,14,16,18], "method": "foreach" },
+        "$shuffles": { "Shuffle"         : [111,222,333]            , "method": "foreach" }
+    },
+    "simulations": [
+        ["$openmls", "$shuffles", { "Take": 1000 } ]
+    ]
+}

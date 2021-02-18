@@ -1,0 +1,5 @@
+{
+    "simulations": [
+        [ { "OpenmlSimulation": [3,6,8,10,11,12,14,16,18], "method": "foreach" }, "PCA", {"Sort":0}, { "Take": 1000 } ]
+    ]
+}
